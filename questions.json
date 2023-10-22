@@ -1,0 +1,645 @@
+[
+    {
+        "id": 797,
+        "question": "What is Docker Machine?",
+        "description": null,
+        "answers": {
+            "answer_a": "Docker machine is a tool that lets you install Docker Engine on virtual hosts",
+            "answer_b": "Docker machine is a tool that lets you install Docker files on virtual hosts",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 386,
+        "question": "The Function 'fetchrow_hashref()' returns reference to hash row values keyed by ______________",
+        "description": null,
+        "answers": {
+            "answer_a": "Row Name",
+            "answer_b": "Database Name",
+            "answer_c": "Table Name",
+            "answer_d": "Column Name",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            },
+            {
+                "name": "PHP"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 220,
+        "question": "Which keyword is used with the ALTER command to delete a column?",
+        "description": null,
+        "answers": {
+            "answer_a": "DROP",
+            "answer_b": "DELETE",
+            "answer_c": "REMOVE",
+            "answer_d": "CHANGE",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 652,
+        "question": "What is the She-bang line in a shell script",
+        "description": null,
+        "answers": {
+            "answer_a": "#",
+            "answer_b": "#!",
+            "answer_c": "!#",
+            "answer_d": "None of the above",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "BASH"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 1055,
+        "question": "Which command would you use to get the hostname of a remote host with Ansible",
+        "description": null,
+        "answers": {
+            "answer_a": "ansible your_server -m setup -a field=*hostname*",
+            "answer_b": "ansible your_server -m env -a filter=*hostname*",
+            "answer_c": "ansible your_server -m setup -a filter=*hostname*",
+            "answer_d": null,
+            "answer_e": "ansible your_server -m setup -a get=*hostname*",
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "DevOps"
+            }
+        ],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 353,
+        "question": "A one to many relationship can only contain multiple entries of both primary and foreign keys.",
+        "description": null,
+        "answers": {
+            "answer_a": "True",
+            "answer_b": "False",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 745,
+        "question": "How to show the metrics for a given node in Kubernetes?",
+        "description": null,
+        "answers": {
+            "answer_a": "kubectl ps node my-node",
+            "answer_b": "kubectl resources node my-node",
+            "answer_c": "kubectl top node my-node",
+            "answer_d": "kubectl uptime node my-node",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 221,
+        "question": "The command to remove rows from a table \"MOVIE\" is:",
+        "description": null,
+        "answers": {
+            "answer_a": "REMOVE FROM MOVIE",
+            "answer_b": "DROP FROM MOVIE",
+            "answer_c": "DELETE FROM MOVIE WHERE",
+            "answer_d": "UPDATE FROM MOVIE",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 249,
+        "question": "Which query will return values containing strings \"apple\", \"banana\" or \"orange\" in the database?",
+        "description": null,
+        "answers": {
+            "answer_a": "SELECT * FROM table WHERE field REGEXP \u2018apple|banana|orange\u2019;",
+            "answer_b": "SELECT * FROM table WHERE field LIKE \u2018%apple%\u2019 OR field LIKE \u2018%banana%\u2019 OR field LIKE \u2018%orange%\u2019;",
+            "answer_c": "SELECT * FROM table WHERE field = \u2018%apple%\u2019 OR field = \u2018%banana%\u2019 OR field = \u2018%orange%\u2019;",
+            "answer_d": "SELECT * FROM table WHERE field = \u2018?apple?\u2019 OR field = \u2018?banana?\u2019 OR field = \u2018?orange?\u2019;",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 1081,
+        "question": "Where are the online repositories configured on a Debian/Ubuntu Machine",
+        "description": null,
+        "answers": {
+            "answer_a": "/etc/apt/sources.list",
+            "answer_b": "/etc/apt/yum.repos",
+            "answer_c": "/etc/fstab",
+            "answer_d": "/etc/apt/repos",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Linux"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 398,
+        "question": "MySQL runs on which Operating Systems?",
+        "description": null,
+        "answers": {
+            "answer_a": "Unix And Linux Only",
+            "answer_b": "Windows only",
+            "answer_c": "Linux And Mac OS-X Only",
+            "answer_d": "Unix, Linux, Windows,Mac And Others",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 507,
+        "question": "Which is not a domain name extension",
+        "description": null,
+        "answers": {
+            "answer_a": ".mil",
+            "answer_b": ".com",
+            "answer_c": ".int",
+            "answer_d": ".org",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 780,
+        "question": "Which of the mentioned are valid PHP loops",
+        "description": null,
+        "answers": {
+            "answer_a": "for",
+            "answer_b": "while",
+            "answer_c": "do ... while",
+            "answer_d": "foreach",
+            "answer_e": "each",
+            "answer_f": "beforeeach"
+        },
+        "multiple_correct_answers": "true",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "true",
+            "answer_c_correct": "true",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 1057,
+        "question": "What do you need to specify in your Ansible playbook to stop gathering facts?",
+        "description": null,
+        "answers": {
+            "answer_a": "facts_gathering: no",
+            "answer_b": "gather: no",
+            "answer_c": "facts: no",
+            "answer_d": "gather_facts: no",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "DevOps"
+            }
+        ],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 417,
+        "question": "Which \"text Type\" has the maximum number of bytes?",
+        "description": null,
+        "answers": {
+            "answer_a": "Long Text",
+            "answer_b": "Text",
+            "answer_c": "Tiny Text",
+            "answer_d": "Medium Text",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 1024,
+        "question": "What does the COPY instruction do in a Dockerfile?",
+        "description": null,
+        "answers": {
+            "answer_a": "COPY makes a copy of your Dockerfile",
+            "answer_b": "COPY adds files from your Docker client\u2019s current directory",
+            "answer_c": "COPY creates a copy of your running container",
+            "answer_d": "COPY creates a copy of your image",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 837,
+        "question": "Docker Toolbox is an installer for quick setup and launch of a Docker environment on Mac and Windows systems. Select all of the Docker tools that come with the Docket Toolbox",
+        "description": null,
+        "answers": {
+            "answer_a": "Docker Machine for running docker-machine commands",
+            "answer_b": "Oracle VirtualBox",
+            "answer_c": "A shell pre-configured for a Docker command-line environment",
+            "answer_d": "Docker Compose for running the docker-compose commands",
+            "answer_e": "A shell post-configured for a Docker command-line environment",
+            "answer_f": "Oracle RealBox Containers"
+        },
+        "multiple_correct_answers": "true",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "true",
+            "answer_c_correct": "true",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 73,
+        "question": "What is the correct way to add 1 to the $count variable?",
+        "description": null,
+        "answers": {
+            "answer_a": "++count",
+            "answer_b": "count++;",
+            "answer_c": "$count =+1",
+            "answer_d": "$count++;",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_d",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "category": "",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 984,
+        "question": "How does a FOR loop start?",
+        "description": null,
+        "answers": {
+            "answer_a": "for i = 1 to 5",
+            "answer_b": "for (i = 0; i <= 5; i++)",
+            "answer_c": "for (i <= 5; i++)",
+            "answer_d": "for (i = 0; i <= 5)",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "JavaScript"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 306,
+        "question": "How to convert a category into a tag?",
+        "description": null,
+        "answers": {
+            "answer_a": "WordPress provides you an option to change category into tag and tag into a category. For this, you need to install Categories and Tags Converter from the Export option under Tools section.",
+            "answer_b": "WordPress provides you an option to change category into tag and tag into a category. For this, you need to install Categories and Tags Converter from the Import option under Tools section.",
+            "answer_c": "WordPress provides you an option to change category into tag and tag into a category. For this, you need to Uninstall Categories and Tags Converter from the  Import option under Tools section.",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "WordPress"
+            }
+        ],
+        "category": "CMS",
+        "difficulty": "Easy"
+    }
+]
